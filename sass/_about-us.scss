@@ -1,0 +1,61 @@
+.aboutus{
+    background-color: var(--color-primary);
+    margin-top: 10rem;
+
+    &_section{ 
+        display: flex;
+        justify-content: space-between;
+        
+    &-one-profile{
+        display: flex;
+        align-items: center;
+        & img{
+            height:5rem;
+            width: 5rem;
+            border-radius: 100%;
+        }
+        & p{
+            font-weight: 500;
+            color:white;
+            margin:0 15px;
+        }
+
+        &-text{
+            font-weight: 200;
+        }
+    }
+
+    &-one{
+        margin:50px 10px 50px 0;
+        flex: 0 0 50%;
+
+        &-image{
+            margin-top:45px;
+        }
+
+        &-image img{
+            height:40rem;
+        }
+    }
+
+    &-two{
+        flex:1;
+        margin:50px 0;
+        & h2{
+            color:var(--color-white);
+            font-size: 100px;
+            font-weight: 400;
+        }
+        & p{
+            color:var(--color-white);
+            font-size: 1rem;
+            font-weight: 100;
+            line-height: 2;
+            padding:0 35px 0 0;
+            margin:50px 10px 65px 0;
+        }
+    }
+
+}
+
+}

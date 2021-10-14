@@ -1,3 +1,44 @@
+.aboutus {
+  background-color: var(--color-primary);
+  margin-top: 10rem; }
+  .aboutus_section {
+    display: flex;
+    justify-content: space-between; }
+    .aboutus_section-one-profile {
+      display: flex;
+      align-items: center; }
+      .aboutus_section-one-profile img {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%; }
+      .aboutus_section-one-profile p {
+        font-weight: 500;
+        color: white;
+        margin: 0 15px; }
+      .aboutus_section-one-profile-text {
+        font-weight: 200; }
+    .aboutus_section-one {
+      margin: 50px 10px 50px 0;
+      flex: 0 0 50%; }
+      .aboutus_section-one-image {
+        margin-top: 45px; }
+      .aboutus_section-one-image img {
+        height: 40rem; }
+    .aboutus_section-two {
+      flex: 1;
+      margin: 50px 0; }
+      .aboutus_section-two h2 {
+        color: var(--color-white);
+        font-size: 100px;
+        font-weight: 400; }
+      .aboutus_section-two p {
+        color: var(--color-white);
+        font-size: 1rem;
+        font-weight: 100;
+        line-height: 2;
+        padding: 0 35px 0 0;
+        margin: 50px 10px 65px 0; }
+
 :root {
   --color-primary:#212b33;
   --color-secondary:rgb(231 235 236);
@@ -11,7 +52,9 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  color: var(--color-white-color);
+  color: var(--color-white-color); }
+
+.container {
   padding: 30px 75px; }
 
 .button {
@@ -28,6 +71,12 @@ body {
   color: var(--color-primary);
   margin: 0 50px;
   padding: 20px; }
+
+.button-white {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  padding: 20px;
+  font-size: 20px; }
 
 .header_container--text {
   margin: 6rem 0; }
