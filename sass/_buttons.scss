@@ -1,0 +1,17 @@
+.button{
+    text-decoration: none;
+    padding:18px;
+    border-radius:30px;
+}
+.button-dark{
+        background-color: var(--color-primary);
+        color:white;
+}
+
+.button-light{
+        background-color:var(--color-secondary);
+        color:var(--color-primary);
+        margin: 0 50px;
+        padding:20px;
+       
+}

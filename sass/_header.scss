@@ -1,0 +1,31 @@
+.header_container{
+    &--text{
+        margin:6rem 0;
+        & h1{
+            font-size: 120px;
+            font-weight: 500;
+            
+        }
+    }
+
+    &--buttons{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &--links-list{
+        display: flex;
+        & li{
+            list-style-type:none;
+        }
+        & a{
+            text-decoration: none;
+            color:var(--color-primary);
+        }
+        & li:not(:last-child){
+            margin: 0 25px;
+        }
+    }
+}
+
+// :not(:last-child)

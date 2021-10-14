@@ -1,0 +1,19 @@
+:root{
+--color-primary:#212b33;
+--color-secondary:rgb(231 235 236);
+--color-white:#ffff;
+--font-type:'Quicksand';
+
+}
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding:0;
+}
+
+body{
+font-family: 'Quicksand', sans-serif;
+color: var(--color-white-color);
+padding: 30px 75px;
+}
