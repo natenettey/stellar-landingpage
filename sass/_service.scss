@@ -1,0 +1,26 @@
+.services{
+    margin: 50px 0;
+    &_heading{
+        color:var(--color-primary);
+            font-size: 5rem;
+            font-weight: 400;
+            
+    }
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-top: 2px solid rgba(141, 141, 141, 0.712);
+    padding: 50px 0 0 0;
+}
+.logo{
+    flex: 1;
+     &:not(:last-child){
+        margin-right: 50px;
+    }
+    & img{
+        width:50%;
+    }
+}
